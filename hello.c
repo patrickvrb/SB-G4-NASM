@@ -1,8 +1,7 @@
 #include <stdlib.h>
+#include <stdio.h>
 
-
-int main()
+void main()
 {
-    char* environment_variable = getenv("CONDA_EXE");
-    return 1;
+    printf("Env2: %s", getenv("PATH"));
 }
